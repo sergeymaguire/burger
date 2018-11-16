@@ -1,27 +1,20 @@
 {
-  "name": "burger",
+  "name": "mvc_design",
   "version": "1.0.0",
-  "description": "A node application using handlebars",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sergeymaguire/burger.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sergeymaguire/burger/issues"
-  },
-  "homepage": "https://github.com/sergeymaguire/burger#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "express-handlebars": "^3.0.0",
-    "mysql": "^2.16.0"
+    "express": "^4.16.3",
+    "express-handlebars": "^2.0.1",
+    "mysql": "^2.10.2",
+    "sequelize": "^4.41.2"
+  },
+  "devDependencies": {
+    "handlebars-helper-css": "^0.1.0"
   }
 }
