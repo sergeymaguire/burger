@@ -125,9 +125,8 @@
             <li>
               {{this.id}}<span>.</span> {{this.burger_name}}
 
-              <form action="/{{this.id}}?_method=PUT" method="POST">
-                <input type="hidden" name="devour" value="true">
-                <button type="submit" class="btn btn-warning btn-sm">Devour!</button>
+              <form action="/{{this.id}}?_method=PUT" method="PUT">
+                <button type="submit" id="{{this.id}}" class="devouredburger btn btn-warning btn-sm">Devour!</button>
               </form>
             </li>
           {{/unless}}
