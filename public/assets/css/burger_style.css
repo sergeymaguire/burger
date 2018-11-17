@@ -4,22 +4,25 @@ body {
   }
   
   img {
-    width: 15%;
-  }
-  
-  .red_font {
-    color: #bc001f;
-  }
-  
-  .tiny_text {
-    font-size: 11px;
-    color: #5da82f;
+    width: 25%;
   }
 
-/* form  {
- margin: auto 0;
-  }  */
+.burgersReadyToEat{
+  display: inline;
+}
 
-  #burgers{
-      margin:auto
-  }
+.burgersEaten{
+  float: right;
+  width: 50%;
+}
+.burgersReadyToEat{
+  width: 50%;
+  float: left;
+}
+
+.container{
+  text-align: center;
+}
+li{
+  text-align: center;
+}
