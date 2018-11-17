@@ -1,7 +1,7 @@
 
-body {
+ body {
     background-color: #f4c242;
-  }
+  } 
   
   img {
     width: 25%;
@@ -13,11 +13,13 @@ body {
 
 .burgersEaten{
   float: right;
-  width: 50%;
+  width: 25%;
+  margin-right: 25%;
 }
 .burgersReadyToEat{
-  width: 50%;
+  width: 25%;
   float: left;
+  margin-left: 25%;
 }
 
 .container{
