@@ -2,6 +2,15 @@ var express = require("express");
 var router = express.Router();
 var burger = require("../models/burger.js");
 
+function empty() {
+  var x;
+  x = $("#burger").value;
+  if (x == "") {
+      alert("Enter a burger name please");
+      return false;
+  };
+}
+empty();
 router.get("/", function(req, res) {
   burger.all(function(data) {
     var hbsObject = {
