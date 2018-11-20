@@ -11,7 +11,7 @@ var connection = mysql.createConnection({
   database: "burgers_db"
 });
 };
-
+var PORT = process.env.PORT || 3000;
 
 connection.connect(function(err) {
   if (err) {
